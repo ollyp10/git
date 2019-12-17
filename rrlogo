@@ -23,21 +23,21 @@
 
 		stroke-dasharray: 2700;
 		stroke-dashoffset: 2700;
-		animation: offset 2.5s cubic-bezier(.74,.02,.36,.97) forwards;
+		animation: offset 1.25s cubic-bezier(.74,.02,.36,.97) forwards;
 	}
 
 	.sub_one line:nth-of-type(1) {
 
 		stroke-dasharray: 450;
 		stroke-dashoffset: 450;
-		animation: offset 1s 1.5s cubic-bezier(.74,.02,.36,.97) forwards;
+		animation: offset 1s .25s cubic-bezier(.74,.02,.36,.97) forwards;
 	}
 
 	.sub_one line:nth-of-type(2) {
 
 		stroke-dasharray: 450;
 		stroke-dashoffset: -450;
-		animation: offset 1s 1.5s cubic-bezier(.74,.02,.36,.97) forwards;
+		animation: offset 1s .25s cubic-bezier(.74,.02,.36,.97) forwards;
 	}
 
 	@keyframes fade_in {
@@ -51,14 +51,14 @@
 	.sub_two {
 
 		opacity: 0;
-		animation: fade_in 1s 2.4s linear forwards;
+		animation: fade_in 1s 1s linear forwards;
 	}
 
 	@keyframes pulsating_effect {
 
         50% {
 
-           opacity: 0.4;
+           opacity: 0.35;
         }
 
         100% {
@@ -72,7 +72,7 @@
 
         opacity: 0;
         transform-origin: 492.5px 465px;
-        animation: pulsating_effect 2s 2.6s linear forwards;
+        animation: pulsating_effect 1s 1.75s linear forwards;
     }
 </style>
 <g class="bg">
